@@ -1,16 +1,18 @@
 # Movie Land
 
+![localhost_3000_ (1)](https://github.com/HAWKZ4/Movie-App-S/assets/108879264/48f6d0fc-f443-44d8-97f1-ba3b18ce675f)
+
 Welcome to **Movie Land**! This is a small project built using React to learn how to consume APIs containing movies, extract movie information, and generate movie cards with a small description. Additionally, it provides a search functionality for movies.
  The application is fully responsive and works well on various devices.
 
 ## Table of Contents
 
--   [Features](https://chatgpt.com/c/7b42496f-78aa-43a6-b15d-cbedf7f9aaf0#features)
--   [Installation](https://chatgpt.com/c/7b42496f-78aa-43a6-b15d-cbedf7f9aaf0#installation)
--   [Usage](https://chatgpt.com/c/7b42496f-78aa-43a6-b15d-cbedf7f9aaf0#usage)
--   [API Reference](https://chatgpt.com/c/7b42496f-78aa-43a6-b15d-cbedf7f9aaf0#api-reference)
--   [Contributing](https://chatgpt.com/c/7b42496f-78aa-43a6-b15d-cbedf7f9aaf0#contributing)
--   [License](https://chatgpt.com/c/7b42496f-78aa-43a6-b15d-cbedf7f9aaf0#license)
+-   [Features](#features)
+-   [Installation](#installation)
+-   [Usage](#usage)
+-   [API Reference](#api-reference)
+-   [Contributing](#contributing)
+-   [License](#license)
 
 ## Features
 

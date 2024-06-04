@@ -3,8 +3,6 @@ import "./App.css";
 import SearchIcon from "./search.svg";
 import MovieCard from "./components/MovieCard";
 
-const API_URL = " http://www.omdbapi.com/?apikey=5ed1101";
-
 const App = () => {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
@@ -12,15 +10,14 @@ const App = () => {
   const inputRef = useRef(null);
 
   const searchMovies = async (title) => {
-    const response = await fetch(`${API_URL}&s=${title}`);
+    const response = await fetch(`${process.env.REACT_APP_API_URL}&s=${title}`);
     const data = await response.json();
     setMovies(data.Search);
   };
-
   useEffect(() => {
     inputRef.current.focus();
     searchMovies(searchTerm);
-  }, []);
+  }, [searchTerm]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
